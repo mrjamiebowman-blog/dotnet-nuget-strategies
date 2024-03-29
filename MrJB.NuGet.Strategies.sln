@@ -22,11 +22,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrJB.NuGet.LinkedFiles.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrJB.NuGet.LinkedFiles.Package", "src\MrJB.NuGet.LinkedFiles.Package\MrJB.NuGet.LinkedFiles.Package.csproj", "{BD31266D-E8F1-4A65-882D-9DAE8839BC14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrJB.NuGet.SharedLib.Domain", "src\MrJB.NuGet.SharedLib.Domain\MrJB.NuGet.SharedLib.Domain.csproj", "{5E640D56-5C02-417C-A08D-229AB6B4D2FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrJB.NuGet.SharedLib.Package", "src\MrJB.NuGet.SharedLib.Package\MrJB.NuGet.SharedLib.Package.csproj", "{D559660C-F01A-469B-910A-D3A3FC904F81}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrJB.NuGet.Console", "test\MrJB.NuGet.Console\MrJB.NuGet.Console.csproj", "{1517A5A0-235D-4C12-917E-166C7CF3641D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MrJB.NuGet.SharedLib.Domain", "src\MrJB.NuGet.SharedLib.Domain\MrJB.NuGet.SharedLib.Domain.shproj", "{31298E7C-329E-4E23-85BB-AC83B6F8609A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,10 +42,6 @@ Global
 		{BD31266D-E8F1-4A65-882D-9DAE8839BC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD31266D-E8F1-4A65-882D-9DAE8839BC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD31266D-E8F1-4A65-882D-9DAE8839BC14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E640D56-5C02-417C-A08D-229AB6B4D2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E640D56-5C02-417C-A08D-229AB6B4D2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E640D56-5C02-417C-A08D-229AB6B4D2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E640D56-5C02-417C-A08D-229AB6B4D2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D559660C-F01A-469B-910A-D3A3FC904F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D559660C-F01A-469B-910A-D3A3FC904F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D559660C-F01A-469B-910A-D3A3FC904F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,11 +59,15 @@ Global
 		{1626697E-6203-4238-9424-B353BC2794EB} = {AE844856-9FE6-4F25-94E9-A47719C25A0F}
 		{2D3A0A5F-33B4-40CC-9D64-D42FDE165BC7} = {1626697E-6203-4238-9424-B353BC2794EB}
 		{BD31266D-E8F1-4A65-882D-9DAE8839BC14} = {1626697E-6203-4238-9424-B353BC2794EB}
-		{5E640D56-5C02-417C-A08D-229AB6B4D2FC} = {B4C0529D-C5FC-4F8B-92A3-AAD78E29F0B4}
 		{D559660C-F01A-469B-910A-D3A3FC904F81} = {B4C0529D-C5FC-4F8B-92A3-AAD78E29F0B4}
 		{1517A5A0-235D-4C12-917E-166C7CF3641D} = {C3E731A5-6D53-4065-901B-8A8FE213C85A}
+		{31298E7C-329E-4E23-85BB-AC83B6F8609A} = {B4C0529D-C5FC-4F8B-92A3-AAD78E29F0B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49FC8F85-6759-404C-ACED-FA5F089EBD81}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\MrJB.NuGet.SharedLib.Domain\MrJB.NuGet.SharedLib.Domain.projitems*{31298e7c-329e-4e23-85bb-ac83b6f8609a}*SharedItemsImports = 13
+		src\MrJB.NuGet.SharedLib.Domain\MrJB.NuGet.SharedLib.Domain.projitems*{d559660c-f01a-469b-910a-d3a3fc904f81}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
