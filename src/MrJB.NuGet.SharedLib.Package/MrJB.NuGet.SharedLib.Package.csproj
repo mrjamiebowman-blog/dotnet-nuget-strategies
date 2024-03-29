@@ -6,11 +6,20 @@
     <Nullable>enable</Nullable>
     <IncludeSymbols>True</IncludeSymbols>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Company>mrjamiebowman</Company>
+    <Company></Company>
     <Copyright>2024</Copyright>
     <VersionPrefix>2.1.4</VersionPrefix>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>mrjamiebowman</Authors>
   </PropertyGroup>
 
   <Import Project="..\MrJB.NuGet.SharedLib.Domain\MrJB.NuGet.SharedLib.Domain.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

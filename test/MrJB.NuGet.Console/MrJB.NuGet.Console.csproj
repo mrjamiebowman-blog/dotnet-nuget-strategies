@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MrJB.NuGet.LinkedFiles.Package" Version="1.8.0" />
+    <PackageReference Include="MrJB.NuGet.SharedLib.Package" Version="2.1.4" />
+  </ItemGroup>
+
 </Project>
