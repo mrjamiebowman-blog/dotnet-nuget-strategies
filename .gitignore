@@ -5,6 +5,7 @@
 
 # nuget folder
 /nuget/*
+!/nuget/*.gikeep
 !/nuget/*.nupkg
 
 # docker env file
