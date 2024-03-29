@@ -8,6 +8,7 @@
     <Copyright>2024</Copyright>
     <VersionPrefix>1.8.0</VersionPrefix>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\MrJB.NuGet.LinkedFiles.Domain\Models\Customer.cs" Link="Models\Customer.cs" />
